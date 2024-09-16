@@ -72,13 +72,15 @@ body{
     .logo{
         width: 50px;
     }
-
+/*
     .video-backgrund {
         position: relative;
         width: 100%;
-        padding-top: 56.25%; /* Proporção 16:9 (altura/largura = 9/16 = 0,5625) */
+        padding-top: 56.25%; /* Proporção 16:9 (altura/largura = 9/16 = 0,5625) 
     }
-    
+    */
+
+/*
     video {
         position: absolute;
         top: 0;
@@ -86,8 +88,13 @@ body{
         width: 100%;
         height: 100%;
     }
+  */
+     .tarot{
+    width: 1500px;
+    height:500px;
+   }
 
-   
+
     .box-1 {
            
         width: 900px;
@@ -111,7 +118,7 @@ body{
     
     .informacoes h1{
         color:#e916b4;
-        font-size:40px;
+        font-size:60px;
        
     }
     
@@ -267,18 +274,10 @@ footer .line-footer p a{
 }
 
 
-.video-backgrund{
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%;
-}
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+.tarot{
+    width:100% ;
+    height:300px;
+   }
 
 
 .box-1 {
@@ -290,7 +289,7 @@ video {
     padding: 5px;
     align-items: center;
     position: absolute;
-   top: 100px;
+   top: 150px;
     left:10px;
     z-index:1;
     bottom: 0px;
@@ -304,7 +303,7 @@ video {
 
 .informacoes h1{
     color:#e916b4;
-    font-size:25px;
+    font-size:40px;
    
 }
 
