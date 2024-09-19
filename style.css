@@ -152,11 +152,56 @@ body{
    
 }
 
+.title{
+    font-size: 4rem;
+   
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+
+.title span{
+    color:#fff;
+       margin-bottom: 3rem;
+       text-transform: uppercase;
+}
+
+.conteiner-image{
+width: 200px;
+}
+
+.about .row{
+ padding:15px;
+    display: flex;
+    align-items: center;
+    background-color:#d3ad7f;
+    flex-direction: column;
+    
+
+}
+.about .row .content{
+    padding: 2rem;
+    
+}
+
+.about .row .content h3 {
+font-size:40px;
+color:#1c0472;
+}
+
+.about .row .content p{
+    font-size:1rem;
+    color:#fff;
+    padding: 1rem 0;
+  text-align: justify;
+}
+
+
 
 
 .atuacao{
     display: flex;
-   
     background-color:#1c0472;
     flex-direction: row;
 }
@@ -194,10 +239,87 @@ background-color: #fff;
     color:#000000;
    }
 
+   
+.title{
+    font-size: 1.5rem;
+    color:#A50000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+}
+.review{
+    background-color:#d3ad7f;
+    padding-bottom: 10px;
+    flex-direction: row;
+}
+
+.title span{
+    color:#1c0472;
+       margin-bottom: 2rem;
+       text-transform: uppercase;
+}
+
+
+.box-container {
+    display:flex;
+    gap: 3rem;
+    flex-direction: column;
+    
+
+}
+
+
+ .box-container .box:hover {
+    background-color:#A50000;
+}
+
+
+
+ .box-container .box img{
+height: 10rem;
+}
+
+
+ .box-container .box h3{
+    color:#fff;
+    font-size: 15px;
+   
+
+}
+
+
+.box{
+    border:3px solid #000;
+    text-align: center; 
+    cursor: pointer;
+    margin:10px
+
+}
+.review .box p {
+font-size: 1rem;
+color:#fff;
+padding: 2rem 0;
+line-height: 1.8;
+
+
+}
+
+.review .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+.review  .box h3{
+font-size:1rem;
+color:#fff;
+
+}
+
    footer{
 
     padding: 20px 4%;
-    box-shadow: 0 0 40px 10px #ffffff3d;
+  background-color: #1c0472;
 }
 
 
@@ -212,17 +334,17 @@ footer .line-footer{
    
 }
 .borda{
-    border-top:2px solid #e916b4;
+    border-top:2px solid  #A50000;
 }
 
 footer .line-footer p i{
-    color:#e916b4;
+    color:#A50000;
     font-size: 30px;
 
 }
 
 footer .line-footer p a{
-    color:#ad0588;
+    color:#A50000;
 }
 
 
@@ -231,7 +353,7 @@ footer .line-footer p a{
     height: 60px;
     border-radius: 50%;
     border:none;
-    background-color: #e916b4;
+    background-color: #A50000;
     font-size: 22px;
     cursor:pointer;
     margin:0 5px;
@@ -254,7 +376,6 @@ footer .line-footer p a{
 .navbar a {
     margin:0 1rem;
     font-size: 12px;
-    color:#BA55D3;
       align-items:center;
     justify-content:center;
 
@@ -263,6 +384,16 @@ footer .line-footer p a{
     display: flex;
     flex-direction: column;
 }
+.review{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo{
     width: 30px;
 }
