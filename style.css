@@ -176,7 +176,7 @@ width: 200px;
     display: flex;
     align-items: center;
     background-color:#d3ad7f;
-    flex-direction: column;
+    flex-direction: row;
     
 
 }
@@ -191,7 +191,7 @@ color:#1c0472;
 }
 
 .about .row .content p{
-    font-size:1rem;
+    font-size:1.5rem;
     color:#fff;
     padding: 1rem 0;
   text-align: justify;
@@ -208,11 +208,9 @@ color:#1c0472;
 
 .atuacao .atuacao-box{
     padding:30px ;
-margin: 20px;
-color:#BA55D3;
-flex-direction: column;
-border:0,5px solid #ffffff52;
-background-color: #fff;
+    margin: 20px;
+       border:0,5px solid #ffffff52;
+    background-color: #fff;
     border-radius: 25px;
     transition: 0.2s;
     text-align: center;
@@ -240,20 +238,25 @@ background-color: #fff;
    }
 
    
+
+   .review  {
+    background-color:#d3ad7f;
+    padding-bottom: 10px;
+    display: flex;
+  
+}
+
+
 .title{
     font-size: 1.5rem;
     color:#A50000;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1rem;
+   
+    
 
 }
-.review{
-    background-color:#d3ad7f;
-    padding-bottom: 10px;
-    flex-direction: row;
-}
-
 .title span{
     color:#1c0472;
        margin-bottom: 2rem;
@@ -261,16 +264,16 @@ background-color: #fff;
 }
 
 
+
+
 .box-container {
     display:flex;
     gap: 3rem;
-    flex-direction: column;
-    
-
+    flex-direction: row;
 }
 
 
- .box-container .box:hover {
+.box-container .box:hover {
     background-color:#A50000;
 }
 
@@ -334,29 +337,29 @@ footer .line-footer{
    
 }
 .borda{
-    border-top:2px solid  #A50000;
+    border-top:2px solid #d3ad7f;
 }
 
 footer .line-footer p i{
-    color:#A50000;
+    color:#d3ad7f;
     font-size: 30px;
 
 }
 
 footer .line-footer p a{
-    color:#A50000;
+    color:#d3ad7f;
 }
 
 
 .btn-social button{
     width: 60px;
-    height: 60px;
+    height: 50px;
     border-radius: 50%;
     border:none;
-    background-color: #A50000;
-    font-size: 22px;
+    background-color: #d3ad7f;
+    font-size: 25px;
     cursor:pointer;
-    margin:0 5px;
+    margin:5px;
     transition:.2s ;
 
 }
@@ -384,15 +387,31 @@ footer .line-footer p a{
     display: flex;
     flex-direction: column;
 }
-.review{
+
+
+.review  .title .box-container{
+    background-color:#d3ad7f;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.about{
+
+.about .row{
+    padding:15px;
     display: flex;
+    align-items: center;
+    background-color:#d3ad7f;
     flex-direction: column;
 }
+
+.about .row .content h3 {
+    font-size:25px;
+    color:#1c0472;
+    }
+ .about .row .content p {
+        font-size:15px;   
+ }
 
 .logo{
     width: 30px;
