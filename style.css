@@ -219,7 +219,7 @@ color:#1c0472;
    
    .atuacao-box h3{
     color:#1c0472;
-    text-transform: capitalize;
+   
    }
 
    .atuacao-box p{
@@ -240,7 +240,7 @@ color:#1c0472;
     font-size: 1.5rem;
     color:#A50000;
     text-align: center;
-   
+   text-transform: capitalize;
     margin: 10px;
    
     
@@ -276,7 +276,7 @@ height: 10rem;
  .box-container .box h3{
     color:#1c0472;
     font-size: 20px;
-    text-transform: capitalize;
+
    
    
 
@@ -296,7 +296,7 @@ height: 10rem;
     padding: 1rem 0;
   text-align: justify;
   margin: 10px;
-  text-transform: capitalize;
+ 
 
 
 
