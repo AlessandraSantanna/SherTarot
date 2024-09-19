@@ -28,7 +28,7 @@ body{
     left:0;
     right:0;
     z-index: 99;
-    border-bottom:#BA55D3;
+    border-bottom:#A50000;
     
 }
 
@@ -46,7 +46,7 @@ body{
 .navbar a {
     margin:0 1rem;
     font-size: 1.2rem;
-    color:#BA55D3;
+    color:#A50000;
       align-items:center;
     justify-content:center;
 
@@ -54,8 +54,8 @@ body{
 
 .navbar a:hover{
         
-    color:#BA55D3;
-    border-bottom:  0.4rem solid #BA55D3;
+    color:#A50000;
+    border-bottom:  0.4rem solid #A50000;
     padding-bottom: 0.5rem;
     font-size:1.2rem;
 }
@@ -111,13 +111,13 @@ body{
     } 
     .informacoes{
         padding: 3px;
-        color:#e916b4;
+        color:#A50000;
         
        
     }
     
     .informacoes h1{
-        color:#e916b4;
+        color:#A50000;
         font-size:60px;
        
     }
@@ -128,7 +128,7 @@ body{
     width: 100%;
     padding: 20px;
     color:white;
-    background-color:#ad0588;
+    background-color:#A50000;
     display: flex;
     flex-direction: column;
    
@@ -154,16 +154,10 @@ body{
 
 
 
-
-
-
-
-
-
 .atuacao{
     display: flex;
    
-    background-color:#DDA0DD;
+    background-color:#1c0472;
     flex-direction: row;
 }
 
@@ -193,7 +187,7 @@ background-color: #fff;
    }
    
    .atuacao-box h3{
-    color:#BA55D3;
+    color:#1c0472;
    }
 
    .atuacao-box p{
