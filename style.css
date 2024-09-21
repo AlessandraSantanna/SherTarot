@@ -17,11 +17,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-
-
-
-
-
+/*menu*/
 .header{
     position:fixed;
     top:0;
@@ -49,6 +45,7 @@ body{
     color:#A50000;
     align-items:center;
     justify-content:center;
+    font-weight: bold;
 
 }
 
@@ -76,85 +73,76 @@ body{
         display: flex;
     }
 
-     .tarot{
-    width: 1500px;
-    height:500px;
-   }
+    .tarot {
+        width: 100%; /* Ajusta a largura para 100% do contêiner pai */
+        height: auto; /* Mantém a proporção da imagem */
+        max-height: 500px; /* Define a altura máxima */
+        object-fit: cover; /* Cobre todo o espaço sem distorcer a imagem */
+    }
+        
 
-
-    .box-1 {
-           
+    .box-1 {      
         width: 900px;
         height: 00px;
         font-weight: bold;
         text-align: center;
         padding: 10px;
         align-items: center;
-     position: absolute;
-       top: 300px;
+        position: absolute;
+        top: 300px;
         left:300px;
-        z-index:1;
-       
+        z-index:1;  
     } 
     .informacoes{
         padding: 3px;
-        color:#A50000;
-        
-       
+        color:#A50000;       
     }
     
     .informacoes h1{
         color:#A50000;
-        font-size:60px;
-       
+        font-size:60px;  
     }
     
-    
+  /*menu*/  
 .apresentacao{
- 
     width: auto;
     padding: 10px;
     color:white;
-    background-color:#A50000;
+    background-color:#1c0472;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;  
+    text-transform: uppercase;
 }
     
 .img-top{
     padding: 10px;
     margin-top: 10px;
-  
 }
 
 
 .txt-topo-site {
     color: white;
-       font-size: 15px;
+    font-size: 15px;
     text-align: center;
     align-items: center;  
 }
 
-
-.conteiner-image{
-    width: 250px;
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-}
-
+/* Sobre*/
 .about .row{
     padding:15px;
     display: flex;
     align-items: center;
     background-color:#d3ad7f;
-    flex-direction: row;
-    
-
+    flex-direction: row;   
 }
+
+.conteiner-image{
+    width: 300px;
+    border-radius: 50%;
+}
+
 .about .row .content{
-    padding: 2rem;
-    
+    padding: 2rem;   
 }
 
 .about .row .content h3 {
@@ -163,53 +151,49 @@ body{
 }
 
 .about .row .content p{
-    font-size:15px;
+    font-size:30px;
     color:#fff;
     padding: 1rem 0;
-  text-align: justify;
+    text-align: justify;
 }
 
 
 
-
+/* Tipos de consulta*/
 .atuacao{
     display: flex;
     background-color:#1c0472;
     flex-direction: row;
+    text-align: center;
 }
 
 .atuacao .atuacao-box{
-    padding:30px ;
+    padding:20px ;
     margin: 20px;
-       border:0,5px solid #ffffff52;
+    border:0,5px solid #ffffff52;
     background-color: #fff;
     border-radius: 25px;
     text-align: center;
     justify-items: center;
-    
-   }
+}
 
-   
-
-   .atuacao .atuacao-box:hover{
+.atuacao .atuacao-box:hover{
    transform: scale(1.05);  
    box-shadow: 0 0 20px #ffffff49 ;
-   }
+}
 
-   .atuacao .atuacao-box img{
+.atuacao .atuacao-box img{
     width: 150px;
-   }
+}
    
-   .atuacao-box h3{
-    color:#1c0472;
-   
-   }
+.atuacao-box h3{
+    color:#1c0472; 
+}
 
-   .atuacao-box p{
+.atuacao-box p{
     color:#000000;
-   }
-
-   
+}
+  
 /*Seção depoimentos*/
    .review  {
     background-color:#d3ad7f;
@@ -274,15 +258,12 @@ height: 10rem;
   
 /*Seção rodapé*/
    footer{
-
     padding: 20px 4%;
-  background-color: #1c0472;
-}
-
-
-footer {
+    background-color: #1c0472;
     display:flex;
     justify-content: center;
+    text-align: center;
+    
 }
 
 
@@ -297,7 +278,8 @@ footer .line-footer{
 
 footer .line-footer p i{
     color:#d3ad7f;
-    font-size: 20px;
+    font-size: 15px;
+    align-items: center;
 
 }
 
@@ -306,18 +288,34 @@ footer .line-footer p a{
 }
 
 
-.btn-social button{
-    width: 40px;
-    height: 50px;
-    border-radius: 50%;
-    border:none;
-    color: #d3ad7f;
-    font-size: 25px;
-    cursor:pointer;
-    margin: 10px;
-    transition:.2s;
 
+.btn-social img{
+    justify-items: center;
+    width: 25px;
+    color:#d3ad7f;
 }
+ 
+
+
+.btn-social p{
+    text-align: center;
+   margin-bottom:20px;
+   color:#d3ad7f;
+}
+
+.btn-social a{
+    text-align: center;
+   margin-bottom:20px;
+   color:#d3ad7f;
+}
+
+
+
+.line-footer .borda{
+    text-align: center;
+   margin-bottom:20px;
+}
+
 
 .whatsapp {
     width: 70px;
@@ -328,7 +326,7 @@ footer .line-footer p a{
 }
 
 
-   @media screen and (max-width:999px){
+   @media screen and (max-width:766px){
 
     
 .navbar a {
@@ -370,6 +368,13 @@ footer .line-footer p a{
  .about .row .content p {
         font-size:15px;   
  }
+
+
+ 
+.conteiner-image{
+    width: 200px;
+}
+
 
 .logo{
     width: 30px;
