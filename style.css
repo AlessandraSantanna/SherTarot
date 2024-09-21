@@ -132,7 +132,7 @@ body{
     padding:15px;
     display: flex;
     align-items: center;
-    background-color:#d3ad7f;
+    background-color:#A50000;
     flex-direction: row;   
 }
 
@@ -194,16 +194,33 @@ body{
     color:#000000;
 }
   
+.informacoes{
+    background-color: #A50000;
+    padding:7px;
+    color:#d3ad7f;
+    border:2px solid #A50000;
+    border-radius: 10px;
+    border-left: 10px;
+    margin-top: 40px;
+    
+   
+}
+
+.informacoes h1{
+    color:#d3ad7f;
+    font-size:10px;
+   
+}
 /*Seção depoimentos*/
    .review  {
-    background-color:#d3ad7f;
+    background-color:#A50000;
     padding-bottom: 10px;
     display: flex;  
 }
 
 .title{
     font-size: 1.5rem;
-    color:#A50000;
+    color:#d3ad7f;
     text-align: center;
     margin: 10px;
 
@@ -220,7 +237,7 @@ body{
 }
 
 .box-container .box:hover {
-    background-color:#A50000;
+    background-color:#d3ad7f;
 }
 
  .box-container .box img{
@@ -244,7 +261,7 @@ height: 10rem;
 .review .box p {
     font-size:15px;
     color:#fff;
-    text-align: justify;
+   
     margin: 5px;
 }
 
@@ -316,6 +333,12 @@ footer .line-footer p a{
    margin-bottom:20px;
 }
 
+.logo1{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin:5px;  
+}
 
 .whatsapp {
     width: 70px;
@@ -343,7 +366,7 @@ footer .line-footer p a{
 
 
 .review  .title .box-container{
-    background-color:#d3ad7f;
+    
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -357,13 +380,12 @@ footer .line-footer p a{
     padding:15px;
     display: flex;
     align-items: center;
-    background-color:#d3ad7f;
     flex-direction: column;
 }
 
 .about .row .content h3 {
     font-size:25px;
-    color:#1c0472;
+   
     }
  .about .row .content p {
         font-size:15px;   
@@ -387,30 +409,22 @@ footer .line-footer p a{
    }
 
 
-.box-1 {
-       
-    width: 300px;
-    height: 100px;
-    font-weight: bold;
-    text-align: center;
-    padding: 5px;
-    align-items: center;
-    position: absolute;
-   top: 150px;
-    left:10px;
-    z-index:1;
-    bottom: 0px;
-} 
+
+
 .informacoes{
-    padding: 3px;
-    color:#e916b4;
+    background-color: #A50000;
+    padding:7px;
+    color:#d3ad7f;
+    border:2px solid #A50000;
+    border-radius: 10px;
+    border-left: 10px;
     
    
 }
 
 .informacoes h1{
-    color:#e916b4;
-    font-size:40px;
+    color:#d3ad7f;
+    font-size:10px;
    
 }
 
