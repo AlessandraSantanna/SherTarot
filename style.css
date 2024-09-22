@@ -67,7 +67,7 @@ body{
     
    
     .logo{
-        width: 80px;
+        width: 100px;
         align-items: center;
         flex-direction: row;
         display: flex;
@@ -95,12 +95,14 @@ body{
     } 
     .informacoes{
         padding: 3px;
-        color:#A50000;       
+        color:#A50000;   
+            
     }
     
     .informacoes h1{
         color:#A50000;
         font-size:60px;  
+        
     }
     
   /*menu*/  
@@ -132,12 +134,12 @@ body{
     padding:15px;
     display: flex;
     align-items: center;
-    background-color:#A50000;
+    background-color:#d3ad7f;
     flex-direction: row;   
 }
 
 .conteiner-image{
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -152,7 +154,7 @@ body{
 
 .about .row .content p{
     font-size:30px;
-    color:#fff;
+    color:#A50000;
     padding: 1rem 0;
     text-align: justify;
 }
@@ -191,7 +193,7 @@ body{
 }
 
 .atuacao-box p{
-    color:#000000;
+    color:#A50000;
 }
   
 .informacoes{
@@ -213,22 +215,19 @@ body{
 }
 /*Seção depoimentos*/
    .review  {
-    background-color:#A50000;
+    background-color:#d3ad7f;
     padding-bottom: 10px;
     display: flex;  
 }
 
 .title{
     font-size: 1.5rem;
-    color:#d3ad7f;
+    color:#1c0472;
     text-align: center;
     margin: 10px;
 
 }
-.title span{
-    color:#1c0472;
-     margin-bottom: 2rem;  
-}
+
 
 .box-container {
     display:flex;
@@ -260,7 +259,7 @@ height: 10rem;
 
 .review .box p {
     font-size:15px;
-    color:#fff;
+    color:#A50000;
    
     margin: 5px;
 }
@@ -399,7 +398,7 @@ footer .line-footer p a{
 
 
 .logo{
-    width: 30px;
+    width: 50px;
 }
 
 
