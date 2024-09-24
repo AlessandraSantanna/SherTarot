@@ -67,7 +67,7 @@ body{
     
    
     .logo{
-        width: 100px;
+        width: 60px;
         align-items: center;
         flex-direction: row;
         display: flex;
@@ -93,17 +93,14 @@ body{
         left:300px;
         z-index:1;  
     } 
-    .informacoes{
+    .informacoes .cartoes{
         padding: 3px;
-        color:#A50000;   
+        background-color:#fff;   
+        display: flex;
+       text-align: center;
             
     }
-    
-    .informacoes h1{
-        color:#A50000;
-        font-size:60px;  
-        
-    }
+   
     
   /*menu*/  
 .apresentacao{
@@ -196,23 +193,7 @@ body{
     color:#A50000;
 }
   
-.informacoes{
-    background-color: #A50000;
-    padding:7px;
-    color:#d3ad7f;
-    border:2px solid #A50000;
-    border-radius: 10px;
-    border-left: 10px;
-    margin-top: 40px;
-    
-   
-}
 
-.informacoes h1{
-    color:#d3ad7f;
-    font-size:10px;
-   
-}
 /*Seção depoimentos*/
    .review  {
     background-color:#d3ad7f;
@@ -351,88 +332,73 @@ footer .line-footer p a{
    @media screen and (max-width:766px){
 
     
-.navbar a {
-    margin:0 1rem;
-    font-size: 12px;
-      align-items:center;
-    justify-content:center;
+    .navbar a {
+        margin:0 1rem;
+        font-size: 12px;
+        align-items:center;
+        justify-content:center;
 
-}
-.atuacao{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.review  .title .box-container{
-    
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.box-container{
-    font-size: 15px;
-}
-
-.about .row{
-    padding:15px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.about .row .content h3 {
-    font-size:25px;
-   
     }
- .about .row .content p {
-        font-size:15px;   
- }
+    .atuacao{
+        display: flex;
+        flex-direction: column;
+    }
 
 
- 
-.conteiner-image{
-    width: 200px;
-}
+    .review  .title .box-container{
+        
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box-container{
+        font-size: 15px;
+    }
 
+    .about .row{
+        padding:15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.logo{
-    width: 50px;
-}
-
-
-.tarot{
-    width:100% ;
-    height:300px;
-   }
-
-
-
-
-.informacoes{
-    background-color: #A50000;
-    padding:7px;
-    color:#d3ad7f;
-    border:2px solid #A50000;
-    border-radius: 10px;
-    border-left: 10px;
+    .about .row .content h3 {
+        font-size:25px;
     
-   
-}
+        }
+    .about .row .content p {
+            font-size:15px;   
+    }
 
-.informacoes h1{
-    color:#d3ad7f;
-    font-size:10px;
-   
-}
 
-.txt-topo-site h2 {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    align-items: center;
-}
+    
+    .conteiner-image{
+        width: 150px;
+    }
+
+
+    .logo{
+        width: 50px;
+    }
+
+
+    .tarot{
+        width:100% ;
+        height:300px;
+    }
+
+
+
+
+
+
+    .txt-topo-site h2 {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
 
  .atuacao-box{
         padding: 12px;
