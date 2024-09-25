@@ -24,7 +24,7 @@ body{
     left:0;
     right:0;
     z-index: 99;
-    border-bottom:#A50000;
+    border-bottom:#3b035c;
     
 }
 
@@ -41,8 +41,8 @@ body{
 
 .navbar a {
     margin:0 1rem;
-    font-size: 1.2rem;
-    color:#A50000;
+    font-size: 1rem;
+    color:#3b035c;
     align-items:center;
     justify-content:center;
     font-weight: bold;
@@ -51,8 +51,8 @@ body{
 
 .navbar a:hover{
         
-    color:#A50000;
-    border-bottom:  0.4rem solid #A50000;
+    color: #3b035c;
+    border-bottom:  0.4rem solid  #3b035c;
     padding-bottom: 0.5rem;
     font-size:1.2rem;
 }
@@ -67,7 +67,7 @@ body{
     
    
     .logo{
-        width: 60px;
+        width: 80px;
         align-items: center;
         flex-direction: row;
         display: flex;
@@ -101,13 +101,29 @@ body{
             
     }
    
+    .informacoes .title{
+        font-size: 1rem;
+        color: #3b035c;
+        text-align: center;
+        margin: 10px;
+    
+    }
+
+    .informacoes h1{
+        font-size: 10px;
+        color: #3b035c;
+        text-align: center;
+        
+    
+    }
     
   /*menu*/  
 .apresentacao{
     width: auto;
     padding: 10px;
-    color:white;
-    background-color:#1c0472;
+    color:rgb(240, 19, 210);
+    background-color:#fff;
+
     display: flex;
     flex-direction: column;  
     text-transform: uppercase;
@@ -120,7 +136,7 @@ body{
 
 
 .txt-topo-site {
-    color: white;
+    color: #3b035c;
     font-size: 15px;
     text-align: center;
     align-items: center;  
@@ -131,12 +147,12 @@ body{
     padding:15px;
     display: flex;
     align-items: center;
-    background-color:#d3ad7f;
+    background-color:#3b035c;
     flex-direction: row;   
 }
 
 .conteiner-image{
-    width: 250px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -145,13 +161,13 @@ body{
 }
 
 .about .row .content h3 {
-    font-size:40px;
-    color:#1c0472;
+    font-size:30px;
+    color:#fff;
 }
 
 .about .row .content p{
-    font-size:30px;
-    color:#A50000;
+    font-size:20px;
+    color:#fff;
     padding: 1rem 0;
     text-align: justify;
 }
@@ -161,7 +177,7 @@ body{
 /* Tipos de consulta*/
 .atuacao{
     display: flex;
-    background-color:#1c0472;
+    background-color:#3b035c;
     flex-direction: row;
     text-align: center;
 }
@@ -186,24 +202,24 @@ body{
 }
    
 .atuacao-box h3{
-    color:#1c0472; 
+    color: #3b035c; 
 }
 
 .atuacao-box p{
-    color:#A50000;
+    color: #3b035c;
 }
   
 
 /*Seção depoimentos*/
    .review  {
-    background-color:#d3ad7f;
+    background-color:#3b035c;
     padding-bottom: 10px;
     display: flex;  
 }
 
 .title{
     font-size: 1.5rem;
-    color:#1c0472;
+    color:#fff;
     text-align: center;
     margin: 10px;
 
@@ -217,7 +233,7 @@ body{
 }
 
 .box-container .box:hover {
-    background-color:#d3ad7f;
+    background-color:#3b035c;
 }
 
  .box-container .box img{
@@ -225,14 +241,14 @@ height: 10rem;
 }
 
  .box-container .box h3{
-    color:#1c0472;
+    color:#fff;
     font-size: 20px;  
     margin-top: 10px;
     font-size:15px;
 }
 
 .box{
-    border:3px solid #000;
+    border:3px solid #fff;
     text-align: center; 
     cursor: pointer;
     margin:10px;
@@ -240,7 +256,7 @@ height: 10rem;
 
 .review .box p {
     font-size:15px;
-    color:#A50000;
+    color:#fff;
    
     margin: 5px;
 }
@@ -249,6 +265,7 @@ height: 10rem;
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
+    border:2px solid #fff;
     margin:5px;
 }
 
@@ -256,7 +273,7 @@ height: 10rem;
 /*Seção rodapé*/
    footer{
     padding: 20px 4%;
-    background-color: #1c0472;
+    background-color: #fff;
     display:flex;
     justify-content: center;
     text-align: center;
@@ -266,22 +283,22 @@ height: 10rem;
 
 footer .line-footer{
     padding: 20px 0;
-    color:#d3ad7f;
+    color:#3b035c;
    
 }
 .borda{
-    border-top:2px solid #d3ad7f;
+    border-top:2px solid #3b035c;
 }
 
 footer .line-footer p i{
-    color:#d3ad7f;
+    color:#3b035c;
     font-size: 15px;
     align-items: center;
 
 }
 
 footer .line-footer p a{
-    color:#d3ad7f;
+    color:#3b035c;
 }
 
 
@@ -289,7 +306,7 @@ footer .line-footer p a{
 .btn-social img{
     justify-items: center;
     width: 25px;
-    color:#d3ad7f;
+    color:#3b035c;
 }
  
 
@@ -297,13 +314,13 @@ footer .line-footer p a{
 .btn-social p{
     text-align: center;
    margin-bottom:20px;
-   color:#d3ad7f;
+   color:#3b035c;
 }
 
 .btn-social a{
     text-align: center;
    margin-bottom:20px;
-   color:#d3ad7f;
+   color:#3b035c;
 }
 
 
@@ -311,12 +328,13 @@ footer .line-footer p a{
 .line-footer .borda{
     text-align: center;
    margin-bottom:20px;
+   color:#3b035c;
 }
 
 .logo1{
     height: 6rem;
     width: 6rem;
-    border-radius: 50%;
+    
     margin:5px;  
 }
 
@@ -329,12 +347,11 @@ footer .line-footer p a{
 }
 
 
-   @media screen and (max-width:766px){
-
-    
+   @media screen and (max-width:450px){
+ 
     .navbar a {
-        margin:0 1rem;
-        font-size: 12px;
+        margin:0 10px;
+        font-size: 10px;
         align-items:center;
         justify-content:center;
 
@@ -352,9 +369,7 @@ footer .line-footer p a{
         flex-direction: column;
         
     }
-    .box-container{
-        font-size: 15px;
-    }
+  
 
     .about .row{
         padding:15px;
@@ -374,7 +389,7 @@ footer .line-footer p a{
 
     
     .conteiner-image{
-        width: 150px;
+        width: 100px;
     }
 
 
@@ -394,7 +409,6 @@ footer .line-footer p a{
 
 
     .txt-topo-site h2 {
-        color: white;
         font-size: 15px;
         text-align: center;
         align-items: center;
@@ -403,7 +417,7 @@ footer .line-footer p a{
  .atuacao-box{
         padding: 12px;
         margin: 200px;
-        color:#d3ad7f;
+       
         flex-direction: column;
         border:0,3px solid #ffffff52;
         background-color: #fff;
@@ -436,4 +450,123 @@ footer .line-footer p a{
     
     }
     
+} 
+
+
+
+@media screen and (min-width:999){
+ 
+    .navbar a {
+        margin:0 10px;
+        font-size: 10px;
+        align-items:center;
+        justify-content:center;
+
+    }
+    .atuacao{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .review  .title .box-container{
+        
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+
+    .about .row{
+        padding:15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .row .content h3 {
+        font-size:25px;
+    
+        }
+    .about .row .content p {
+            font-size:15px;   
+    }
+
+
+    
+    .conteiner-image{
+        width: 100px;
+    }
+
+
+    .logo{
+        width: 50px;
+    }
+
+
+    .tarot{
+        width:100% ;
+        height:300px;
+    }
+
+
+
+
+
+
+    .txt-topo-site h2 {
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+
+ .atuacao-box{
+        padding: 12px;
+        margin: 200px;
+       
+        flex-direction: column;
+        border:0,3px solid #ffffff52;
+        background-color: #fff;
+        border-radius: 5px;
+        transition: 0.1s;
+        text-align: center;
+        justify-items: center;
+        width:  auto;
+        font-size: 15px;
+     }  
+
+
+     .whatsapp {
+        width: 40px;
+        position: fixed;
+        right: 40px;
+        bottom: 10px;
+    
+    }
+    btn-social button{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border:none;
+        background-color: #e916b4;
+        font-size: 15px;
+        cursor:pointer;
+        margin:0 5px;
+        transition:.2s ;
+    
+    }
+    
+    .card img {
+        align-items: center;
+        height: 100px;
+        width: 60px;
+        display: block; /* Para remover espaços em volta da imagem */
+    }
+
+    .card {
+        height: 10px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
 } 

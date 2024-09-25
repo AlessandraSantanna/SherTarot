@@ -1,18 +1,19 @@
 
 .card {
-    height: 250px;
+    height: 180px;
     width: 220px;
     display: inline-flex;
     position: relative;
     perspective: 1000px; /* Aumentar a perspectiva para um efeito mais profundo */
-    margin:auto;
     text-align: center;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .card-front,
 .card-back {
     position: absolute;
+    align-items: center;
     backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: all 0.6s ease; /* Ajuste a duração se desejar */
@@ -34,9 +35,9 @@
 }
 
 .card img {
-    align-items: center;
-    height: 200px;
-    width: 120px;
+  
+    height:150px;
+    width: 100px;
     display: block; /* Para remover espaços em volta da imagem */
 }
 
@@ -50,7 +51,17 @@
     }
 
     .card {
-        height: 150px;
-        width: 220px;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .card {
+        height: 100px;
+        width: 300px;
+        margin-bottom: 10px;
     }
 }
