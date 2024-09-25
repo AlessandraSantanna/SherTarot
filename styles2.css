@@ -42,6 +42,15 @@
 }
 
 
+#message {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color:#3b035c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width:766px){
     .card img {
         align-items: center;

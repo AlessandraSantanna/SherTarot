@@ -126,11 +126,11 @@
     </div>
     <div class="cartoes">
 
-        <div class="card">
+        <div class="card" onclick="showMessage()">
             <div class="card-front"><img src="./imagens/logoroxa.png" alt="Front Card 1"></div> <div class="card-back"><img src="./imagens/carta1.jpg" alt="Back Card 1"></div>
         </div>
     
-        <div class="card">
+        <div class="card" onclick="showMessage2()">
             <div class="card-front">
                 <img src="./imagens/logoroxa.png" alt="Front Card 2">
             </div>
@@ -139,7 +139,7 @@
             </div>
         </div>
     
-        <div class="card">
+        <div class="card" onclick="showMessage3()">
             <div class="card-front">
                 <img src="./imagens/logoroxa.png" alt="Front Card 3">
             </div>
@@ -215,6 +215,12 @@
         
         
     </div>   
+
+
+    <div id="message"></div>
+
+
+
 </section>
 
 <section class="review" id="review">
@@ -226,7 +232,7 @@
             
             <img src="./imagens/alessandra.jpg" alt="foto-cliente" class="user">
             <h3> Alessandra</h3>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum qui labore magni animi, ipsum consequatur nam. At laboriosam, culpa quaerat perferendis reprehenderit exercitationem modi quae, vel, unde quasi possimus corrupti.</p>
+            <p> Nas consultas ela sempre se dedica e nos transmite tudo com muita propriedade e confiança. Bem dedicada  em tudo que faz. Ele me descreveu toda como sou, e cheguei a me emocionar. Também me revelou coisas novas que irei viver em breve. Tudo que ela releva é certeiro!</p>
           
            
            
@@ -290,7 +296,23 @@
 
    
     </footer>
+    <div id="message"></div>
 
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerText = "Carta Corações-  Significa explosão de sentimentos. Amor Eterno, emoções profundas, emoções em alta, Amor verdadeiro, traz revelações de um amor puro.CARTA POSITIVA";
+        }
+
+        function showMessage2() {
+            document.getElementById("message").innerText = "Carta Arvoré-bla-bla bla";
+        }
+        function showMessage3() {
+            document.getElementById("message").innerText = "Carta teste-bla bla bla";
+        }
+    </script>
 
 </body>
+</html>
+
+
 
