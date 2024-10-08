@@ -52,9 +52,9 @@ body{
 .navbar a:hover{
         
     color: #3b035c;
-    border-bottom:  0.4rem solid  #3b035c;
+    border-bottom:  0.2rem solid  #3b035c;
     padding-bottom: 0.5rem;
-    font-size:1.2rem;
+    font-size:1rem;
 }
 
 
@@ -95,9 +95,10 @@ body{
     } 
 
     .informacoes{
-        width: auto;
-        background-color:#fff;
-      align-items: center;
+     text-align: center;
+     background-color:#fff;
+ 
+    
     }
 
 
@@ -112,27 +113,40 @@ body{
             
     }
    
-    .informacoes .title{
-        font-size: 1rem;
-        color: #3b035c;
-        text-align: center;
-        margin: 10px;
+  
+        
+       
     
-    }
 
-    .informacoes h1{
-        font-size: 10px;
+
+    .informacoes .title_informacoes {
+        font-size: 20px;
         color: #3b035c;
         text-align: center;
+        margin:10px;
+        
         
     
     }
+
+
+    .informacoes .title_informacoes h3 {
+        font-size: 16px;
+        color: #3b035c;
+        text-align: center;
+        margin:10px;
+        
+        
+    
+    }
+
+
    
   /*menu*/  
 .apresentacao{
     width: auto;
     padding: 10px;
-    background-color:#fff;
+    background-color:#3b035c;
     display: flex;
     flex-direction: column;  
     text-transform: uppercase;
@@ -145,19 +159,21 @@ body{
 
 
 .txt-topo-site {
-    color: #3b035c;
+    color: #fff;
     font-size: 15px;
     text-align: center;
     align-items: center;  
 }
+
 
 /* Sobre*/
 .about .row{
     padding:15px;
     display: flex;
     align-items: center;
-    background-color:#3b035c;
+    background-color:#ffff;
     flex-direction: row;   
+   
 }
 
 .conteiner-image{
@@ -171,12 +187,12 @@ body{
 
 .about .row .content h3 {
     font-size:30px;
-    color:#fff;
+    color:#3b035c;
 }
 
 .about .row .content p{
     font-size:20px;
-    color:#fff;
+    color:#3b035c;
     padding: 1rem 0;
     text-align: justify;
 }
@@ -189,8 +205,22 @@ body{
     background-color:#3b035c;
     flex-direction: row;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Inicia invisível */
+    transform: translateX(-100%); /* Começa fora da tela à esquerda */
+    animation: entrar 1s ease-out forwards; /* Animação de entrada */
 }
-
+/* Animação de entrada da esquerda para a direita */
+@keyframes entrar {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%); /* Começa fora da tela */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Termina na posição original */
+    }
+}
 .atuacao .atuacao-box{
     padding:20px ;
     margin: 20px;
@@ -364,7 +394,16 @@ footer .line-footer p a{
         align-items:center;
         justify-content:center;
 
+    }     
+    .navbar a:hover{
+        
+        color: #3b035c;
+        border-bottom:  0.2rem solid  #3b035c;
+        padding-bottom: 0.5rem;
+        font-size:12px;
     }
+    
+
     .atuacao{
         display: flex;
         flex-direction: column;
@@ -472,6 +511,15 @@ footer .line-footer p a{
         justify-content:center;
 
     }
+    
+.navbar a:hover{
+        
+    color: #3b035c;
+    border-bottom:  0.4rem solid  #3b035c;
+    padding-bottom: 0.5rem;
+    font-size:12px;
+}
+
     .atuacao{
         display: flex;
         flex-direction: column;
